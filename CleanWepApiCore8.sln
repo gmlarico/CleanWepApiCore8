@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35818.85 d17.13
+VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WepApiCore", "WepApiCore\WepApiCore.csproj", "{B5346207-6DDF-4474-A01A-C924C06B53F0}"
 EndProject
@@ -10,6 +10,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplication", "Aplication\Aplication.csproj", "{3B1C9DCD-D497-4BDC-A1B5-D627E68D065C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{42C8EE9A-F68D-48E8-B055-02840ECD484E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Presentation", "1.Presentation", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Infrastructure", "2.Infrastructure", "{89AE6D54-40DB-4F43-8B07-085251F63C10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Application", "3.Application", "{1B853E94-A157-4092-9135-5F70C30641DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Domain", "4.Domain", "{2C5A1911-E7E2-46E6-8B28-526B7B6C1AD0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +44,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5346207-6DDF-4474-A01A-C924C06B53F0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7B37ADAD-350E-42D7-97CD-1D9FFE4512BB} = {2C5A1911-E7E2-46E6-8B28-526B7B6C1AD0}
+		{3B1C9DCD-D497-4BDC-A1B5-D627E68D065C} = {1B853E94-A157-4092-9135-5F70C30641DC}
+		{42C8EE9A-F68D-48E8-B055-02840ECD484E} = {89AE6D54-40DB-4F43-8B07-085251F63C10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4196C8DF-5C5B-42EE-BCEC-73DB93E2C40C}
